@@ -98,7 +98,7 @@ fun MenuScreen(navController: NavController, settingsViewModel: TriviaSettingsVi
         }
         Spacer(modifier = Modifier.fillMaxHeight(0.02f))
         Button(
-            onClick = { /*TODO*/ },
+            onClick = { navController.navigate(Routes.GameScreen.route) },
 
             modifier = Modifier
                 .fillMaxWidth(0.9f)

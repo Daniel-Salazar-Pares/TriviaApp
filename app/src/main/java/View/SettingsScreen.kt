@@ -65,7 +65,7 @@ fun SettingsScreen(navController: NavController, settingsViewModel: TriviaSettin
                 text = "Difficulty", modifier = Modifier
                     .fillMaxWidth(0.4f)
                     .padding(start = 10.dp),
-                fontSize = 24.sp,
+                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold,
             )
 
