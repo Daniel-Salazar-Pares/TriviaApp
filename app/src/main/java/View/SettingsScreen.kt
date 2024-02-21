@@ -200,6 +200,3 @@ fun SettingsScreen(navController: NavController, settingsViewModel: TriviaSettin
         }
     }
 }
-
-
-
